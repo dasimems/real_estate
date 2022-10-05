@@ -35,6 +35,9 @@ body .space-between {
 body .justify-center {
   justify-content: center;
 }
+body .justify-end {
+  justify-content: flex-end;
+}
 body .wrap {
   flex-wrap: wrap;
 }

@@ -293,10 +293,111 @@
 
                             </div>
 
-                            
+
 
 
                         </a>
+
+                    </div>
+
+                    <div class="reviews">
+
+                        <h2 class="review-header">Hear what our client have to say</h1>
+
+                        <div class="review-content flex-content">
+
+                            <div class="review-card">
+                            
+                                <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga eius explicabo, omnis quisquam deleniti, quas dignissimos maxime fugit nihil consequatur delectus! Id asperiores magni ipsa quaerat, aliquam libero doloribus.</p>
+
+                                <div class="review-contact-details">
+
+                                    <h4 class="name">Duyil Ayomid</h4>
+
+                                    <p class="role">Developer at S.T.A.G</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="review-card">
+                            
+                                <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga eius explicabo, omnis quisquam deleniti, quas dignissimos maxime fugit nihil consequatur delectus! Id asperiores magni ipsa quaerat, aliquam libero doloribus.</p>
+
+                                <div class="review-contact-details">
+
+                                    <h4 class="name">Duyil Ayomid</h4>
+
+                                    <p class="role">Developer at S.T.A.G</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="review-card">
+                            
+                                <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga eius explicabo, omnis quisquam deleniti, quas dignissimos maxime fugit nihil consequatur delectus! Id asperiores magni ipsa quaerat, aliquam libero doloribus.</p>
+
+                                <div class="review-contact-details">
+
+                                    <h4 class="name">Duyil Ayomid</h4>
+
+                                    <p class="role">Developer at S.T.A.G</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="review-card">
+                            
+                                <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga eius explicabo, omnis quisquam deleniti, quas dignissimos maxime fugit nihil consequatur delectus! Id asperiores magni ipsa quaerat, aliquam libero doloribus.</p>
+
+                                <div class="review-contact-details">
+
+                                    <h4 class="name">Duyil Ayomid</h4>
+
+                                    <p class="role">Developer at S.T.A.G</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="review-card">
+                            
+                                <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga eius explicabo, omnis quisquam deleniti, quas dignissimos maxime fugit nihil consequatur delectus! Id asperiores magni ipsa quaerat, aliquam libero doloribus.</p>
+
+                                <div class="review-contact-details">
+
+                                    <h4 class="name">Duyil Ayomid</h4>
+
+                                    <p class="role">Developer at S.T.A.G</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="review-card">
+                            
+                                <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga eius explicabo, omnis quisquam deleniti, quas dignissimos maxime fugit nihil consequatur delectus! Id asperiores magni ipsa quaerat, aliquam libero doloribus.</p>
+
+                                <div class="review-contact-details">
+
+                                    <h4 class="name">Duyil Ayomid</h4>
+
+                                    <p class="role">Developer at S.T.A.G</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="action-content flex-content justify-end">
+
+                            <button class="review-nav-btn left-btn flex-content justify-center align-center"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="review-nav-btn right-btn flex-content justify-center align-center"><i class="fa-solid fa-angle-right"></i></button>
+
+                        </div>
 
                     </div>
 

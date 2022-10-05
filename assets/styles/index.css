@@ -188,4 +188,57 @@
 .properties .properties-container .properties-card .location {
   color: rgba(0, 0, 0, 0.8);
   font-size: 0.8rem;
+}
+
+.reviews {
+  padding: 90px 8%;
+}
+.reviews .review-header {
+  text-align: center;
+}
+.reviews .review-content {
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.reviews .review-content .review-card {
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  min-width: 350px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.reviews .review-content .review-card .message {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.reviews .review-content .review-card .name {
+  font-size: 0.9rem;
+  margin-top: 14px;
+}
+.reviews .review-content .review-card .role {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+.reviews .action-content {
+  margin-top: 20px;
+}
+.reviews .action-content button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  font-size: 1.2rem;
+}
+.reviews .action-content button:not(:first-child) {
+  margin-left: 10px;
+}
+.reviews .action-content button:hover {
+  color: white;
+  background: #5138ed;
+  transition: 0.5s ease all;
 }/*# sourceMappingURL=index.css.map */
