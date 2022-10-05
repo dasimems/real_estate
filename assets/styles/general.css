@@ -1,0 +1,297 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: poppins;
+}
+body .flex-content {
+  display: flex;
+}
+body .column {
+  flex-direction: column;
+}
+body .align-center {
+  align-items: center;
+}
+body .space-between {
+  justify-content: space-between;
+}
+body .justify-center {
+  justify-content: center;
+}
+body .wrap {
+  flex-wrap: wrap;
+}
+body a {
+  text-decoration: none;
+}
+body button {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+body img {
+  width: 100%;
+}
+body main {
+  display: block;
+  position: relative;
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body main .header-content {
+  width: 100%;
+  height: 70px;
+  background: white;
+}
+body main .header-content header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8%;
+  align-items: center;
+}
+body main .header-content header .logo a {
+  font-weight: bold;
+  color: #5138ed;
+}
+body main .header-content header .header-link {
+  width: auto;
+  height: 100%;
+}
+body main .header-content header .header-link ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+body main .header-content header .header-link ul li {
+  position: relative;
+}
+body main .header-content header .header-link ul li a {
+  color: black;
+  font-size: 1rem;
+}
+body main .header-content header .header-link ul li .dropdown-content {
+  display: none;
+  opacity: 0;
+  transition: 0.5s ease all;
+  flex-direction: column;
+  position: absolute;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  background: white;
+  top: 73px;
+  min-width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+body main .header-content header .header-link ul li .dropdown-content span {
+  padding: 10px 0px;
+}
+body main .header-content header .header-link ul li .dropdown-content span:hover {
+  padding-left: 8px;
+  transition: 0.5s ease all;
+}
+body main .header-content header .header-link ul .dropdown {
+  height: 110%;
+  display: flex;
+  align-items: center;
+}
+body main .header-content header .header-link ul .dropdown:hover .dropdown-content {
+  display: flex;
+  opacity: 1;
+}
+body main .header-content header .header-link ul li:not(:first-child) {
+  margin-left: 80px;
+}
+body main .header-content header .mobile-btn {
+  display: none;
+}
+body main .header-content header .mobile-btn button {
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+}
+body main .header-content header .mobile-btn .opened .open-icon {
+  display: block;
+}
+body main .header-content header .mobile-btn .opened .close-icon {
+  display: none;
+}
+body main .header-content header .mobile-btn .closed .open-icon {
+  display: none;
+}
+body main .header-content header .mobile-btn .closed .close-icon {
+  display: block;
+}
+body main .header-content .mobile-link-container {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  opacity: 0px;
+  display: none;
+}
+body main .header-content .mobile-link-container .mobile-links {
+  background: #0f0746;
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  position: absolute;
+  right: -350px;
+  top: 0px;
+}
+body main .header-content .mobile-link-container .mobile-links a {
+  color: white;
+  font-weight: bold;
+}
+body main .header-content .mobile-link-container .mobile-links .close-mobile-link {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 5px;
+  font-size: 1.3rem;
+}
+body main .header-content .mobile-link-container .mobile-link-content ul {
+  list-style: none;
+  margin: 20px 0px;
+}
+body main .header-content .mobile-link-container .mobile-link-content ul li a {
+  display: block;
+  padding: 20px;
+  padding-left: 40%;
+}
+body main .header-content .mobile-link-container .mobile-link-content ul .link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+body main .body-contents {
+  height: calc(100% - 70px);
+  overflow-y: scroll;
+  scrollbar-color: rgba(0, 0, 0, 0.3);
+  scrollbar-width: thin;
+  scrollbar-track-color: rgba(0, 0, 0, 0.1);
+}
+body main .body-contents .body {
+  min-height: 100%;
+  width: 100%;
+}
+body main .body-contents footer {
+  padding: 70px 8%;
+  background: #0f0746;
+  color: white;
+  padding-bottom: 15px;
+}
+body main .body-contents footer .header {
+  font-size: 1.3rem;
+}
+body main .body-contents footer .footer-content .copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+body main .body-contents footer .footer-content .copyright a {
+  color: white;
+  font-weight: bold;
+}
+body main .body-contents footer .footer-content .footer-element {
+  width: 30%;
+}
+body main .body-contents footer .footer-content .footer-element p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 10px;
+}
+body main .body-contents footer .footer-content .footer-element .links {
+  list-style: none;
+  margin-top: 10px;
+}
+body main .body-contents footer .footer-content .footer-element .links li a {
+  display: block;
+  padding: 3px 0px;
+  color: rgba(255, 255, 255, 0.7);
+}
+body main .body-contents footer .footer-content .footer-element .normal-link a:hover {
+  transition: 0.5s ease all;
+  padding-left: 8px;
+}
+body main .body-contents footer .footer-content .footer-element .social-link li a {
+  padding: 0px;
+  color: white;
+  font-size: 1.8rem;
+}
+body main .body-contents footer .footer-content .footer-element .flex-content li:not(:first-child) {
+  margin-left: 10px;
+}
+body main .body-contents footer .footer-content .footer-element .newsletter-form {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+}
+body main .body-contents footer .footer-content .footer-element .newsletter-form input {
+  height: 100%;
+  width: calc(100% - 80px);
+  padding: 0px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  background: #f6f6f6;
+}
+body main .body-contents footer .footer-content .footer-element .newsletter-form input:focus {
+  background: white;
+}
+body main .body-contents footer .footer-content .footer-element .newsletter-form button {
+  height: 100%;
+  width: 80px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  outline: none;
+  background: #e6e6e6;
+}
+body main .body-contents footer .footer-content .footer-link {
+  width: 5%;
+  min-width: 100px;
+}
+body main .body-contents footer .copyright-text {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 20px;
+}
+body main .body-contents footer .footer-content:not(:first-child) {
+  margin-top: 40px;
+}
+body main .body-contents::-webkit-scrollbar {
+  width: 0px;
+}
+body main .body-contents:hover::-webkit-scrollbar {
+  width: 5px;
+}
+body main .body-contents::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+body main .body-contents::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}/*# sourceMappingURL=general.css.map */
