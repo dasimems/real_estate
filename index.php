@@ -162,21 +162,141 @@
 
                         </div>
 
-                        <div class="properties-container flex-content wrap">
+                        <a href="./" class="properties-container flex-content wrap">
 
 
                             <div class="properties-card">
 
                                 <div class="properties-image">
 
-                                    <img src="" alt="">
+                                    <img src="./assets/images/house.jpg" alt="">
 
                                 </div>
 
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
                             </div>
 
+                            <div class="properties-card">
 
-                        </div>
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            <div class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            <div class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            <div class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            <div class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            <div class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            <div class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="./assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                            </div>
+
+                            
+
+
+                        </a>
 
                     </div>
 

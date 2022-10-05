@@ -162,10 +162,30 @@
   width: 23%;
   min-width: 23%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 5px;
   border-radius: 5px;
+  color: black;
+  margin-bottom: 20px;
+  margin-right: 2%;
 }
 .properties .properties-container .properties-card .properties-image {
   width: 100%;
-  height: 100px;
+  height: 150px;
+  overflow: hidden;
+}
+.properties .properties-container .properties-card .property-name,
+.properties .properties-container .properties-card .property-price,
+.properties .properties-container .properties-card .location {
+  margin-top: 10px;
+}
+.properties .properties-container .properties-card .property-name {
+  font-size: 1rem;
+}
+.properties .properties-container .properties-card .property-price {
+  font-size: 0.9rem;
+  color: #5138ed;
+}
+.properties .properties-container .properties-card .location {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.8rem;
 }/*# sourceMappingURL=index.css.map */
