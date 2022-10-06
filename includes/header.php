@@ -8,15 +8,16 @@
 
         <ul>
 
-            <li><a href="./">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
 
             <li class="dropdown">
-                <a href="./">Services</a>
+                <a href="../pages/properties.php">Properties</a>
                 
                 <div class="dropdown-content">
 
-                    <span><a href="./">Sell</a></span>
-                    <span><a href="./">Buy/Rent</a></span>
+                    <span><a href="../pages/sale.php">Sell</a></span>
+                    <span><a href="../pages/properties.php?type=buy">Buy</a></span>
+                    <span><a href="../pages/properties.php?type=rent">Rent</a></span>
 
                 </div>
             </li>
@@ -65,11 +66,13 @@
 
              <ul>
 
-                <li class="link"><a href="./">Home</a></li>
+                <li class="link"><a href="../index.php">Home</a></li>
                 
-                <li class="link"><a href="./">Sell</a></li>
+                <li class="link"><a href="../sale.php">Sell</a></li>
 
-                <li class="link"><a href="./">Buy/Rent</a></li>
+                <li class="link"><a href="../pages/properties.php?type=buy">Buy</a></li>
+
+                <li class="link"><a href="../pages/properties.php?type=rent">Rent</a></li>
 
                 <li class="link"><a href="./">About</a></li>
 

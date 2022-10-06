@@ -226,6 +226,8 @@ body{
                 z-index: 9;
                 opacity: 0px;
                 display: none;
+                transition: 1s ease all;
+                
 
                 .mobile-links{
                     background: $primary-color-deep;
@@ -235,6 +237,8 @@ body{
                     position: absolute;
                     right: -350px;
                     top: 0px;
+                    transition: 1s ease all;
+
 
                     a{
                         color: $default-color;
