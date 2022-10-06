@@ -19,10 +19,12 @@ $padding-ten: 100px 8%;
 
 .banner-header{
     padding: $padding-four;
+    height: auto;
 
     h1{
         font-size: 1.5rem;
         max-width: 500px;
+        margin-right: 20px;
     }
 
     .banner-header-content{
@@ -45,6 +47,7 @@ $padding-ten: 100px 8%;
                 background: $default-color;
                 border-radius: 5px;
                 outline: none;
+                height: 100%;
             }
 
             select:focus,
@@ -198,6 +201,15 @@ $padding-ten: 100px 8%;
 
 }
 
+@media only screen and (max-width: 979px){
+    .banner-header{
+
+        h1{
+            margin-bottom: 20px;
+        }
+    }
+}
+
 
 
 @media only screen and (max-width: 960px){
@@ -216,10 +228,38 @@ $padding-ten: 100px 8%;
 }
 
 @media only screen and (max-width: 550px){
+
+    .banner-header{
+
+        text-align: center;
+
+        .banner-header-content{
+
+            form{
+                height: auto;
+
+                select,
+                input{
+                    height: 40px;
+                }
+                
+                select{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                input{
+                    width: calc(100% - 50px);
+                }
+            }
+        }
+            
+    }
     
     .properties{
 
         .properties-container{
+            justify-content: center;
 
             .properties-card{
                 width: 90%;

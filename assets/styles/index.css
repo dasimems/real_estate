@@ -349,6 +349,9 @@
   .about .about-content::after {
     height: 85%;
   }
+  .properties .properties-container {
+    justify-content: center;
+  }
   .properties .properties-container .properties-card {
     width: 90%;
   }

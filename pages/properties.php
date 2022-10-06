@@ -43,7 +43,7 @@
 
                             <p class="subtitle">Beautiful homes, Incredible locations and pricing that makes sense</p>
 
-                            <form action="" class="flex-content" method="get">
+                            <form action="" class="flex-content wrap" method="get">
 
                                 <select name="type" id="type">
                                     <option value="">Choose property type</option>

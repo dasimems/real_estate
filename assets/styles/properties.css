@@ -1,9 +1,11 @@
 .banner-header {
   padding: 40px 8%;
+  height: auto;
 }
 .banner-header h1 {
   font-size: 1.5rem;
   max-width: 500px;
+  margin-right: 20px;
 }
 .banner-header .banner-header-content {
   max-width: 500px;
@@ -23,6 +25,7 @@
   background: white;
   border-radius: 5px;
   outline: none;
+  height: 100%;
 }
 .banner-header .banner-header-content form select:focus,
 .banner-header .banner-header-content form input:focus {
@@ -139,12 +142,37 @@
   margin-left: 10px;
 }
 
+@media only screen and (max-width: 979px) {
+  .banner-header h1 {
+    margin-bottom: 20px;
+  }
+}
 @media only screen and (max-width: 960px) {
   .properties .properties-container .properties-card {
     width: 45%;
   }
 }
 @media only screen and (max-width: 550px) {
+  .banner-header {
+    text-align: center;
+  }
+  .banner-header .banner-header-content form {
+    height: auto;
+  }
+  .banner-header .banner-header-content form select,
+.banner-header .banner-header-content form input {
+    height: 40px;
+  }
+  .banner-header .banner-header-content form select {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .banner-header .banner-header-content form input {
+    width: calc(100% - 50px);
+  }
+  .properties .properties-container {
+    justify-content: center;
+  }
   .properties .properties-container .properties-card {
     width: 90%;
   }
