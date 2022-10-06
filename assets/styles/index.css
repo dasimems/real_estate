@@ -1,6 +1,7 @@
 .banner {
   width: 100%;
-  height: 645px;
+  height: calc(100vh - 70px);
+  max-height: 645px;
   background: url("../images/landing_page_banner_image.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -86,6 +87,10 @@
 .about .about-content .about-header {
   padding: 30px 8%;
 }
+.about .about-content .about-header .about-header-content {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 .about .about-content .about-header .about-header-content h2 {
   font-size: 1.5rem;
 }
@@ -167,6 +172,7 @@
   color: black;
   margin-bottom: 20px;
   margin-right: 2%;
+  display: block;
 }
 .properties .properties-container .properties-card .properties-image {
   width: 100%;
@@ -253,6 +259,8 @@
 }
 .extra-content .content-details {
   max-width: 500px;
+  position: relative;
+  z-index: 99;
 }
 .extra-content .content-details .subtitle {
   margin-bottom: 10px;
@@ -281,4 +289,73 @@
 .extra-content .content-image img {
   height: 191%;
   width: auto;
+}
+
+@media only screen and (max-width: 960px) {
+  .about .about-content .service-content .service-card {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  .about .about-content::after {
+    height: 80%;
+  }
+  .properties .properties-container .properties-card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .about .about-content .about-header {
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .extra-content .content-image {
+    opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .banner {
+    max-height: 545px;
+  }
+  .banner .banner-content {
+    text-align: center;
+  }
+  .banner .banner-content .banner-header {
+    font-size: 1.5rem;
+  }
+  .about .about-content .service-content {
+    justify-content: center;
+  }
+  .about .about-content .service-content .service-card {
+    width: 90%;
+  }
+  .about .about-content::after {
+    height: 85%;
+  }
+  .properties .properties-container .properties-card {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 503px) {
+  .banner .banner-content .banner-stats {
+    justify-content: center;
+  }
+  .banner .banner-content .banner-stats .stats:not(:first-child) {
+    margin-top: 10px;
+  }
+  .extra-content .content-details .header {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .about .about-content .service-content {
+    justify-content: center;
+  }
+  .about .about-content .service-content .service-card {
+    width: 100%;
+  }
+  .properties .properties-container .properties-card {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */

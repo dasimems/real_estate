@@ -18,6 +18,8 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  min-width: 264px;
+  overflow: hidden;
   font-family: poppins;
 }
 body .flex-content {
@@ -297,4 +299,33 @@ body main .body-contents::-webkit-scrollbar-track {
 body main .body-contents::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
+}
+@media only screen and (max-width: 850px) {
+  body main .header-content header .desktop-link {
+    display: none;
+  }
+  body main .header-content header .mobile-btn {
+    display: block;
+  }
+  body main .body-contents footer .footer-content .footer-element {
+    width: 45%;
+  }
+  body main .body-contents footer .footer-content .footer-newsletter {
+    width: 100%;
+    order: 1;
+    margin-bottom: 30px;
+  }
+  body main .body-contents footer .footer-content .footer-contact {
+    order: 3;
+    width: 50%;
+  }
+  body main .body-contents footer .footer-content .footer-link {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body main .body-contents footer .footer-content .footer-element {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=general.css.map */

@@ -1,8 +1,8 @@
 <footer>
 
-    <div class="footer-content flex-content space-between">
+    <div class="footer-content flex-content space-between wrap">
 
-        <div class="footer-element">
+        <div class="footer-element footer-contact">
 
             <h3 class="header">Brand Name</h3>
 
@@ -35,7 +35,7 @@
 
         </div>
 
-        <div class="footer-element">
+        <div class="footer-element footer-newsletter">
 
             <h3 class="header">Newletter</h3>
 
