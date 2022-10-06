@@ -159,6 +159,7 @@ body main .header-content .mobile-link-container {
   z-index: 9;
   opacity: 0px;
   display: none;
+  transition: 1s ease all;
 }
 body main .header-content .mobile-link-container .mobile-links {
   background: #0f0746;
@@ -168,6 +169,7 @@ body main .header-content .mobile-link-container .mobile-links {
   position: absolute;
   right: -350px;
   top: 0px;
+  transition: 1s ease all;
 }
 body main .header-content .mobile-link-container .mobile-links a {
   color: white;

@@ -165,7 +165,7 @@
                         <div class="properties-container flex-content wrap justify-center">
 
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -181,7 +181,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -197,7 +197,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -213,7 +213,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -229,7 +229,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -245,7 +245,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -261,7 +261,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -277,7 +277,7 @@
 
                             </a>
 
-                            <a class="properties-card">
+                            <a href="./" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -434,7 +434,7 @@
 
        </main>
         
-        <script src="./assets/scripts/functions.js" async defer></script>
-        <script src="./assets/scripts/general.js" async defer></script>
+        <script src="./assets/scripts/functions.js" async></script>
+        <script src="./assets/scripts/general.js" defer></script>
     </body>
 </html>
