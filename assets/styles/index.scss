@@ -325,3 +325,51 @@ $padding-ten: 100px 8%;
         }
     }
 }
+
+.extra-content{
+    padding: $padding-five;
+    background: #eae8fd;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    // border: 1px solid red;
+
+    .content-details{
+        max-width: 500px;
+        .subtitle{
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: rgba(0, 0, 0, .8);
+        }
+    
+        .header{
+            font-size: 2rem;
+        }
+    
+        .cta{
+            margin-top: 10px;
+    
+            a{
+                display: inline-block;
+                padding: 8px 15px;
+                border-radius: 6px;
+                background: $primary-color;
+                color: $default-color;
+            }
+        }
+    }
+
+    .content-image{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 100%;
+        
+        img{
+            height: 191%;
+            width: auto;
+        }
+    }
+
+}

@@ -401,6 +401,28 @@
 
                     </div>
 
+                    <div class="extra-content">
+
+                        <div class="content-details">
+
+                            <p class="subtitle">Find home with us</p>
+                            <h2 class="header">Find the right house over</h2>
+                            <h2 class="header"> 400, 000 property options</h2>
+
+                            <div class="cta">
+                                <a href="./">Find Now</a>
+                            </div>
+
+                        </div>
+
+                        <div class="content-image">
+
+                            <img src="./assets/images/banner_image.png" alt="A tall building">
+
+                        </div>
+
+                    </div>
+
                 </div>
                 
 
