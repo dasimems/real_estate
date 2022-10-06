@@ -9,7 +9,7 @@
 .banner .banner-content {
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0));
   padding: 30px 8%;
 }
 .banner .banner-content .banner-header,
@@ -17,6 +17,7 @@
 .banner .banner-content .property-search-form,
 .banner .banner-content .banner-stats {
   max-width: 600px;
+  color: white;
 }
 .banner .banner-content .banner-subtitle,
 .banner .banner-content .property-search-form,
@@ -24,11 +25,12 @@
   margin-top: 20px;
 }
 .banner .banner-content .banner-subtitle {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 .banner .banner-content .banner-header {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: white;
 }
 .banner .banner-content .property-search-form {
   width: 100%;

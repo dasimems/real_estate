@@ -424,7 +424,6 @@
                             <img src="./assets/images/banner_image.png" alt="A tall building">
 
                         </div>
-
                         <div class="content-details">
 
                             <p class="subtitle">Find home with us</p>
