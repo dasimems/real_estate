@@ -114,9 +114,18 @@
 }
 
 @media only screen and (max-width: 825px) {
+  .banner .banner-content .subtitle {
+    color: rgba(0, 0, 0, 0.8);
+  }
   .banner .banner-image {
     width: 70%;
     opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .property-sale-form .form-container .form-content {
+    width: 100%;
+    min-width: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
