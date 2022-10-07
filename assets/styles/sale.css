@@ -1,0 +1,133 @@
+.banner {
+  width: 100%;
+  height: 400px;
+  padding: 0px 8%;
+  background: #eae8fd;
+  position: relative;
+}
+.banner .banner-content {
+  padding: 30px 0px;
+  z-index: 9;
+}
+.banner .banner-content .banner-header {
+  font-size: 2rem;
+}
+.banner .banner-content .subtitle {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.banner .banner-image {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../images/sale_banner.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+}
+.banner .banner-image img {
+  height: 100%;
+  width: auto;
+}
+
+.property-sale-form {
+  width: 100%;
+  padding: 50px 8%;
+}
+.property-sale-form .form-header {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+.property-sale-form .subtitle {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+}
+.property-sale-form .subtitle span {
+  color: rgb(255, 40, 0);
+}
+.property-sale-form .form-container {
+  width: 100%;
+  height: auto;
+}
+.property-sale-form .form-container .form-content {
+  width: 32%;
+  min-width: 32%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.property-sale-form .form-container .form-content label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+.property-sale-form .form-container .form-content label .required {
+  margin-left: 5px;
+  color: rgb(255, 40, 0);
+}
+.property-sale-form .form-container .form-content input,
+.property-sale-form .form-container .form-content select {
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  background: white;
+}
+.property-sale-form .form-container .form-content textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  background: white;
+  font-family: poppins;
+  margin-top: 10px;
+}
+.property-sale-form .form-container .form-content input:focus,
+.property-sale-form .form-container .form-content textarea:focus {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.property-sale-form .form-container .form-content .submit-button {
+  padding: 8px 20px;
+  border: 2px solid #5138ed;
+  border-radius: 5px;
+  background: white;
+  color: #5138ed;
+}
+.property-sale-form .form-container .form-content .submit-button:hover {
+  background: #5138ed;
+  color: white;
+  transition: 0.5s ease all;
+}
+.property-sale-form .form-container .full-width {
+  width: 100%;
+  min-width: 100%;
+}
+.property-sale-form .form-container .half-width {
+  width: 48%;
+  min-width: 48%;
+}
+
+@media only screen and (max-width: 825px) {
+  .banner .banner-image {
+    width: 70%;
+    opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .banner .banner-content {
+    text-align: center;
+  }
+  .banner .banner-content .banner-header {
+    font-size: 1.7rem;
+  }
+  .banner .banner-image {
+    width: 100%;
+    opacity: 0.4;
+  }
+}/*# sourceMappingURL=sale.css.map */

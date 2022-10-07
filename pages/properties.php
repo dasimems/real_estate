@@ -51,7 +51,7 @@
                                     <option value="buy">Buy</option>
                                 </select>
 
-                                <input type="text" name="search" id="search" placeholder="Enter city name">
+                                <input type="text" name="city" id="city" placeholder="Enter city name">
 
                                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 

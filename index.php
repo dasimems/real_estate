@@ -42,9 +42,9 @@
 
                             <p class="banner-subtitle">Connect with more than 75 million renters looking for new homes using our comprehensive marketing platform</p>
 
-                            <form action="./" method="get" class="property-search-form flex-content">
+                            <form action="./pages/properties.php" method="get" class="property-search-form flex-content">
 
-                                <input type="text" name="property-search" id="property-search" placeholder="Enter city name to search for properties">
+                                <input type="text" name="city" id="city" placeholder="Enter city name">
                                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 
                             </form>
@@ -158,14 +158,14 @@
 
                             <h2>Available Properties</h2>
 
-                            <a href="./"><span class="text"> Expore all</span> <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+                            <a href="./pages/properties.php"><span class="text"> Expore all</span> <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
 
                         </div>
 
                         <div class="properties-container flex-content wrap">
 
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -184,7 +184,7 @@
                             </a>
 
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -202,7 +202,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -220,7 +220,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -238,7 +238,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -256,7 +256,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -274,7 +274,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -292,7 +292,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="./pages/assets.php?id=jibsuybuyfbyudbfyub" class="properties-card">
 
                                 <div class="properties-image">
 

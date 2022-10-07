@@ -104,7 +104,7 @@ body main .header-content header .header-link ul li .dropdown-content {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   z-index: 99;
   background: white;
-  top: 73px;
+  top: 74px;
   min-width: 150px;
   padding: 10px;
   border-radius: 5px;
@@ -112,7 +112,7 @@ body main .header-content header .header-link ul li .dropdown-content {
 body main .header-content header .header-link ul li .dropdown-content span {
   padding: 10px 0px;
 }
-body main .header-content header .header-link ul li .dropdown-content span:hover {
+body main .header-content header .header-link ul li .dropdown-content span a:hover {
   padding-left: 8px;
   transition: 0.5s ease all;
 }
@@ -160,6 +160,7 @@ body main .header-content .mobile-link-container {
   opacity: 0px;
   display: none;
   transition: 1s ease all;
+  z-index: 9999;
 }
 body main .header-content .mobile-link-container .mobile-links {
   background: #0f0746;
