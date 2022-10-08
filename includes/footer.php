@@ -25,9 +25,10 @@
 
             <ul class="links normal-link">
 
-                <li><a href="./">Home</a></li>
-                <li><a href="./">Sell</a></li>
-                <li><a href="./">Buy/Rent</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../pages/sale.php">Sell</a></li>
+                <li><a href="../pages/properties.php?type=buy">Buy</a></li>
+                <li><a href="../pages/properties.php?type=sell">Sell</a></li>
                 <li><a href="./">About</a></li>
                 <li><a href="./">Contact</a></li>
 

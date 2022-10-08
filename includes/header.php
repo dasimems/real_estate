@@ -68,7 +68,7 @@
 
                 <li class="link"><a href="../index.php">Home</a></li>
                 
-                <li class="link"><a href="../sale.php">Sell</a></li>
+                <li class="link"><a href="../pages/sale.php">Sell</a></li>
 
                 <li class="link"><a href="../pages/properties.php?type=buy">Buy</a></li>
 

@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Real Estate Properties</title>
+        <title><?php echo isset($_GET['type']) && !empty($_GET['type']) && ( $_GET['type'] === "buy" ||  $_GET['type'] === "rent") ? ucwords($_GET['type'])." ". "Properties" : "Properties"; ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../assets/plugins/fontawesome/css/all.css">
@@ -80,7 +80,7 @@
                         <div class="properties-container flex-content wrap">
 
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -99,7 +99,7 @@
                             </a>
 
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -117,7 +117,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -135,7 +135,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -153,7 +153,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -171,7 +171,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -189,7 +189,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -207,26 +207,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag rent">Rent</span>
-
-                            </a>
-
-
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -245,115 +226,7 @@
                             </a>
 
 
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag rent">Rent</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag sale">Sale</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag rent">Rent</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag sale">Sale</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag sale">Sale</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
-
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag sale">Sale</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -372,7 +245,115 @@
                             </a>
 
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag rent">Rent</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag sale">Sale</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag rent">Rent</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag sale">Sale</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag sale">Sale</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag sale">Sale</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -391,7 +372,7 @@
                             </a>
 
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -409,25 +390,8 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
 
-                                <div class="properties-image">
-
-                                    <img src="../assets/images/house.jpg" alt="">
-
-                                </div>
-
-                                <h3 class="property-name">Property name</h3>
-
-                                <h4 class="property-price">$3,000</h4>
-
-                                <p class="location">425444, Califonia beach. USA</p>
-
-                                <span class="tag sale">Sale</span>
-
-                            </a>
-
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -445,7 +409,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -463,7 +427,25 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag rent">Rent</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -481,7 +463,7 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 
@@ -499,7 +481,25 @@
 
                             </a>
 
-                            <a href="./" class="properties-card">
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
+
+                                <div class="properties-image">
+
+                                    <img src="../assets/images/house.jpg" alt="">
+
+                                </div>
+
+                                <h3 class="property-name">Property name</h3>
+
+                                <h4 class="property-price">$3,000</h4>
+
+                                <p class="location">425444, Califonia beach. USA</p>
+
+                                <span class="tag sale">Sale</span>
+
+                            </a>
+
+                            <a href="../pages/assets.php?id=hjbfuysdfyubbcvyubsyf" class="properties-card">
 
                                 <div class="properties-image">
 

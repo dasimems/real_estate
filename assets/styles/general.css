@@ -31,6 +31,9 @@ body .column {
 body .align-center {
   align-items: center;
 }
+body .align-start {
+  align-items: flex-start;
+}
 body .space-between {
   justify-content: space-between;
 }
