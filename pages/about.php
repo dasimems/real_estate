@@ -38,10 +38,22 @@
                         <div class="banner-content flex-content align-center justify-center column">
 
                             <h1 class="banner-header">We're changing the whole game</h1>
-                            <h2 class="banner-header">Let's manage your properties for you</h1>
+                            <h2 class="banner-subtitle">Let's manage your properties for you</h1>
+
+                            <div class="banner-action flex-content">
+
+                                <a href="./contact.php">Contact Us</a>
+
+                            </div>
                         </div>
 
                         
+                    </div>
+
+                    <div class="attributes flex-content wrap">
+
+                        
+
                     </div>
 
                 </div>

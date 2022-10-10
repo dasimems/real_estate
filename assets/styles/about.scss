@@ -31,5 +31,40 @@ $padding-ten: 100px 8%;
         height: 100%;
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(2px);
+        padding: $padding-three;
+
+        .banner-header{
+            font-size: 2.3rem;
+
+        }
+
+        .banner-subtitle{
+            margin-top: 10px;
+            color: rgba(0, 0, 0, .8);
+            font-size: 1.3rem;
+            font-weight: normal;
+
+        }
+
+        .banner-action{
+            margin-top: 20px;
+
+            a{
+                display: block;
+                background: $primary-color;
+                color: $default-color;
+                padding: 8px 15px;
+                border-radius: 5px;
+                border: 2px solid $primary-color;
+
+
+            }
+
+            a:hover{
+                background: rgba(255, 255, 255, 0.8);
+                color: $primary-color;
+                transition: 0.5s ease all;
+            }
+        }
     }
 }
