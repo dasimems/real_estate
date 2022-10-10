@@ -78,10 +78,83 @@
                                 </div>
 
                             </div>
-                            <div class="contact-form"></div>
+
+                            <div class="contact-form">
+
+                                <form action="" method="post">
+
+                                    <div class="form-content flex-content column">
+
+                                        <label for="name">Full Name</label>
+
+                                        <div class="form-box">
+
+                                            <input type="text" name="name" id="name" placeholder="Your full name">
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="form-content flex-content column">
+
+                                        <label for="email">Email</label>
+    
+                                        <div class="form-box">
+
+                                            <input type="email" name="email" id="email" placeholder="Your email address">
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="form-content flex-content column">
+
+                                        <label for="message">Message</label>
+
+                                        <textarea name="message" id="message" placeholder="Message here..."></textarea>
+
+
+                                    </div>
+
+                                    <div class="form-content flex-content column">
+
+                                        <button type="submit">Submit</button>
+
+                                    </div>
+
+
+                                </form>
+
+                            </div>
 
                         </div>
 
+
+                    </div>
+
+
+                    <div class="extra-content">
+
+                        <div class="content-image">
+
+                            <img src="../assets/images/banner_image.png" alt="A tall building">
+
+                        </div>
+                        <div class="content-details">
+
+                            <p class="subtitle">Find home with us</p>
+                            <h2 class="header">Find the right house over</h2>
+                            <h2 class="header"> 400, 000 property options</h2>
+
+                            <div class="cta">
+                                <a href="./properties.php">Find Now</a>
+                            </div>
+
+                        </div>
+
+                        
 
                     </div>
 

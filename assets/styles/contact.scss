@@ -62,6 +62,7 @@ $padding-ten: 100px 8%;
 .contact{
     position: relative;
     padding: $padding;
+    padding-bottom: 70px;
 
     .contact-content{
         background: rgb(246, 245, 250);
@@ -92,15 +93,182 @@ $padding-ten: 100px 8%;
                     list-style: none;
 
                     li{
-                        margin-top: 15px;
+                        margin-top: 20px;
 
                         a{
                             color: $primary-color;
+
+                            .icon{
+                                margin-right: 5px;
+                            }
                         }
+
+                        a:hover{
+                            padding-left: 9px;
+                            transition: 0.5s ease all;
+
+                        }
+
                     }
                 }
             }
         }
 
+        .contact-form{
+
+            form{
+
+                .form-content{  
+                    width: 100%;
+                    height: auto;
+
+                    input,
+                    button,
+                    textarea{
+                        width: 100%;
+                        margin-top: 6px;
+                        border-radius: 5px;
+                        border: 1px solid rgba(0, 0, 0, .3);
+                        font-family: poppins;
+                        outline: none;
+                    }
+
+                    label{
+                        // font-weight: bold;
+                        color: rgba(0, 0, 0, .7);
+                    }
+
+                    input,
+                    button{
+                        height: 40px;
+                    }
+
+                    input{
+                        padding: 0px 10px;
+                    }
+
+                    input:focus,
+                    textarea:focus{
+                        border: 2px solid rgba(0, 0, 0, .5);
+                    }
+
+                    textarea{
+                        height: 130px;
+                        padding: 10px;
+                    }
+
+                    button{
+                        background: transparent;
+                        border: 2px solid $primary-color;
+                        color: $primary-color;
+                    }
+
+                    button:hover{
+                        background: $primary-color;
+                        color: $default-color;
+                        transition: 0.5s ease all;
+                    }
+
+                }
+
+                .form-content:not(:first-child){
+                    margin-top: 15px;
+                }
+            }
+        }
+
     }
+}
+
+
+.extra-content{
+    padding: $padding-five;
+    background: #eae8fd;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    // border: 1px solid red;
+
+    .content-details{
+        max-width: 500px;
+        position: relative;
+        z-index: 99;
+        // mix-blend-mode: multiply;
+        .subtitle{
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: rgba(0, 0, 0, .8);
+        }
+    
+        .header{
+            font-size: 2rem;
+        }
+    
+        .cta{
+            margin-top: 10px;
+    
+            a{
+                display: inline-block;
+                padding: 8px 15px;
+                border-radius: 6px;
+                background: $primary-color;
+                color: $default-color;
+            }
+        }
+    }
+
+    .content-image{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 100%;
+
+
+        img{
+            height: 191%;
+            width: auto;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 734px){
+
+    .
+
+    .extra-content{
+
+        .content-image{
+            opacity: 0.5;
+        }
+
+        
+    }
+}
+
+
+@media only screen and (max-width: 503px)
+{
+
+    .banner{
+        .banner-content{
+
+            .banner-header{
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .extra-content{
+
+        .content-details{
+
+            .header{
+                font-size: 1.3rem;
+            }
+
+            
+        }
+    }
+
 }
