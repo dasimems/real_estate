@@ -15,6 +15,7 @@
           backdrop-filter: blur(2px);
   padding: 30px 8%;
   color: white;
+  text-align: center;
 }
 .banner .banner-content .banner-header {
   font-size: 2.3rem;
@@ -86,6 +87,7 @@
 }
 .about .about-content .about-description {
   order: 1;
+  margin-right: 10px;
 }
 .about .about-content .about-description .header {
   font-size: 1.3rem;
@@ -99,9 +101,11 @@
 }
 .about .image-first .about-image {
   order: 1;
+  margin-right: 10px;
 }
 .about .image-first .about-description {
   order: 2;
+  margin-right: 0px;
 }
 .about .about-content:not(:first-child) {
   margin-top: 20px;
@@ -185,13 +189,69 @@
   width: auto;
 }
 
+@media only screen and (max-width: 1200px) {
+  .about .about-content .about-image,
+.about .about-content .about-description {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 989px) {
+  .about .about-content .about-image,
+.about .about-content .about-description {
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .attributes .attribute-contents .attribute-card {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .about .about-content .about-image,
+.about .about-content .about-description {
+    max-width: unset;
+  }
+  .about .about-content .about-image {
+    order: 2;
+    margin-top: 40px;
+  }
+  .about .about-content .about-description {
+    order: 1;
+  }
+}
 @media only screen and (max-width: 734px) {
   .extra-content .content-image {
     opacity: 0.5;
   }
 }
+@media only screen and (max-width: 550px) {
+  .attributes .attribute-contents {
+    justify-content: center;
+  }
+  .attributes .attribute-contents .attribute-card {
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 503px) {
+  .banner .banner-content .banner-header {
+    font-size: 1.8rem;
+  }
+  .banner .banner-content .banner-subtitle {
+    font-size: 1rem;
+  }
   .extra-content .content-details .header {
     font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .attributes .attribute-contents {
+    justify-content: center;
+  }
+  .attributes .attribute-contents .attribute-card {
+    width: 100%;
+  }
+  .properties .properties-container .properties-card {
+    width: 100%;
   }
 }/*# sourceMappingURL=about.css.map */
