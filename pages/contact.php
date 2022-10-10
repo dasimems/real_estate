@@ -57,7 +57,7 @@
 
                     <div class="contact">
 
-                        <div class="contact-content flex-content space-between">
+                        <div class="contact-content flex-content wrap space-between">
 
                             <div class="contact-details">
 

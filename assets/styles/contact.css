@@ -162,6 +162,16 @@
 }
 
 @media only screen and (max-width: 734px) {
+  .contact .contact-content .contact-details,
+.contact .contact-content .contact-form {
+    width: 100%;
+  }
+  .contact .contact-content .contact-details .contact-details-header {
+    text-align: center;
+  }
+  .contact .contact-content .contact-form {
+    margin-top: 30px;
+  }
   .extra-content .content-image {
     opacity: 0.5;
   }
