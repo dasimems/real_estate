@@ -23,9 +23,9 @@
             </li>
 
 
-            <li><a href="./">About</a></li>
+            <li><a href="../pages/about.php">About</a></li>
 
-            <li><a href="./">Contact</a></li>
+            <li><a href="../pages/contact.php">Contact</a></li>
 
 
         </ul>
@@ -74,9 +74,9 @@
 
                 <li class="link"><a href="../pages/properties.php?type=rent">Rent</a></li>
 
-                <li class="link"><a href="./">About</a></li>
+                <li class="link"><a href="../pages/about.php">About</a></li>
 
-                <li class="link"><a href="./">Contact</a></li>
+                <li class="link"><a href="../pages/contact.php">Contact</a></li>
 
 
             </ul>

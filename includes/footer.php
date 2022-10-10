@@ -29,8 +29,8 @@
                 <li><a href="../pages/sale.php">Sell</a></li>
                 <li><a href="../pages/properties.php?type=buy">Buy</a></li>
                 <li><a href="../pages/properties.php?type=sell">Sell</a></li>
-                <li><a href="./">About</a></li>
-                <li><a href="./">Contact</a></li>
+                <li><a href="../pages/about.php">About</a></li>
+                <li><a href="../pages/contact.php">Contact</a></li>
 
             </ul>
 

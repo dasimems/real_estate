@@ -81,7 +81,7 @@
 
                                 <div class="about-header-content">
 
-                                    <a href="./">Read More About us</a>
+                                    <a href="./pages/about.php">Read More About us</a>
 
                                 </div>
 
@@ -431,7 +431,7 @@
                             <h2 class="header"> 400, 000 property options</h2>
 
                             <div class="cta">
-                                <a href="./">Find Now</a>
+                                <a href="./pages/properties.php">Find Now</a>
                             </div>
 
                         </div>
