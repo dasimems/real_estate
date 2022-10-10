@@ -158,7 +158,7 @@
 
                     <div class="team flex-content justify-center align-center column">
 
-                        <h2 class="team-header">Meet our team</h2>
+                        <h2 class="team-header">Meet the team</h2>
 
                         <div class="team-content flex-content justify-center wrap">
 
