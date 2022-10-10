@@ -50,9 +50,67 @@
                         
                     </div>
 
-                    <div class="attributes flex-content wrap">
+                    <div class="attributes">
 
-                        
+                        <div class="attribute-contents flex-content wrap space-between">
+
+                            <div class="attribute-card flex-content column space-between align-center">
+    
+                                <div class="icon flex-content justify-center align-center">
+    
+                                    <i class="fa-solid fa-message"></i>
+    
+                                </div>
+    
+                                <h3 class="title">Communication</h3>
+    
+                                <p class="description">Single point of contact in sync with the tools you use, we speak your language!</p>
+    
+                            </div>
+    
+                            <div class="attribute-card flex-content column space-between align-center">
+    
+                                <div class="icon flex-content justify-center align-center">
+    
+                                    <i class="fa-solid fa-shield-alt"></i>
+    
+                                </div>
+    
+                                <h3 class="title">Reliability</h3>
+    
+                                <p class="description">We keep our promises, provide upfront timelines and bring predictability</p>
+    
+                            </div>
+    
+                            <div class="attribute-card flex-content column space-between align-center">
+    
+                                <div class="icon flex-content justify-center align-center">
+    
+                                    <i class="fa-solid fa-circle-check"></i>
+    
+                                </div>
+    
+                                <h3 class="title">Quality first</h3>
+    
+                                <p class="description">Quality first! All project are backed by fanatic support & 100% satisfaction guarantee</p>
+    
+                            </div>
+    
+                            <div class="attribute-card flex-content column space-between align-center">
+    
+                                <div class="icon flex-content justify-center align-center">
+    
+                                    <i class="fa-solid fa-message"></i>
+    
+                                </div>
+    
+                                <h3 class="title">Families</h3>
+    
+                                <p class="description">Rent a beautiful house for your family. choose From flats in societies and individual apartments</p>
+    
+                            </div>
+                        </div>
+
 
                     </div>
 
