@@ -114,6 +114,151 @@
 
                     </div>
 
+                    <div class="about">
+
+                        <div class="about-content flex-content wrap space-between align-center ">
+
+                            <div class="about-description">
+
+                                <h2 class="header">Our Mission</h2>
+
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis iusto asperiores consectetur dolore culpa neque cumque. Doloribus, quidem iste? Iste corrupti ipsa numquam quidem fuga id ab assumenda ad!</p>
+
+                            </div>
+
+
+                            <div class="about-image">
+
+                                <img src="../assets/images/mission.jpg" alt="People in office">
+
+                            </div>
+
+                        </div>
+
+                         <div class="about-content flex-content wrap space-between align-center image-first">
+
+                            <div class="about-description">
+
+                                <h2 class="header">Our Vision</h2>
+
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis iusto asperiores consectetur dolore culpa neque cumque. Doloribus, quidem iste? Iste corrupti ipsa numquam quidem fuga id ab assumenda ad!</p>
+
+                            </div>
+
+
+                            <div class="about-image">
+
+                                <img src="../assets/images/vision.jpg" alt="People in office">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="team flex-content justify-center align-center column">
+
+                        <h2 class="team-header">Meet our team</h2>
+
+                        <div class="team-content flex-content justify-center wrap">
+
+                            <div class="team-card flex-content justify-center align-center column">
+
+                                <div class="team-image">
+                                    <img src="../assets/images/team_image.jpg" alt="">
+                                </div>
+
+                                <p class="team-name">Duyil Ayomid</p>
+                                <p class="team-position">Front-end developer</p>
+
+                            </div>
+
+                             <div class="team-card flex-content justify-center align-center column">
+
+                                <div class="team-image">
+                                    <img src="../assets/images/team_image.jpg" alt="">
+                                </div>
+
+                                <p class="team-name">Duyil Ayomid</p>
+                                <p class="team-position">Front-end developer</p>
+
+                            </div>
+
+                             <div class="team-card flex-content justify-center align-center column">
+
+                                <div class="team-image">
+                                    <img src="../assets/images/team_image.jpg" alt="">
+                                </div>
+
+                                <p class="team-name">Duyil Ayomid</p>
+                                <p class="team-position">Front-end developer</p>
+
+                            </div>
+
+                             <div class="team-card flex-content justify-center align-center column">
+
+                                <div class="team-image">
+                                    <img src="../assets/images/team_image.jpg" alt="">
+                                </div>
+
+                                <p class="team-name">Duyil Ayomid</p>
+                                <p class="team-position">Front-end developer</p>
+
+                            </div>
+
+                             <div class="team-card flex-content justify-center align-center column">
+
+                                <div class="team-image">
+                                    <img src="../assets/images/team_image.jpg" alt="">
+                                </div>
+
+                                <p class="team-name">Duyil Ayomid</p>
+                                <p class="team-position">Front-end developer</p>
+
+                            </div>
+
+                             <div class="team-card flex-content justify-center align-center column">
+
+                                <div class="team-image">
+                                    <img src="../assets/images/team_image.jpg" alt="">
+                                </div>
+
+                                <p class="team-name">Duyil Ayomid</p>
+                                <p class="team-position">Front-end developer</p>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="extra-content">
+
+                        <div class="content-image">
+
+                            <img src="../assets/images/banner_image.png" alt="A tall building">
+
+                        </div>
+                        <div class="content-details">
+
+                            <p class="subtitle">Find home with us</p>
+                            <h2 class="header">Find the right house over</h2>
+                            <h2 class="header"> 400, 000 property options</h2>
+
+                            <div class="cta">
+                                <a href="./properties.php">Find Now</a>
+                            </div>
+
+                        </div>
+
+                        
+
+                    </div>
+
                 </div>
                 
 
