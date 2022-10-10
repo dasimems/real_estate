@@ -78,7 +78,7 @@
                         
                     </div>
 
-                    <div class="asset-content flex-content space-between align-start">
+                    <div class="asset-content flex-content space-between wrap align-start">
 
                         <div class="asset-details">
 

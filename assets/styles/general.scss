@@ -145,7 +145,7 @@ body{
                                 flex-direction: column;
                                 position: absolute;
                                 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1);
-                                z-index: 99;
+                                z-index: 9999;
                                 background: $default-color;
                                 top: calc($header-height + 4px);
                                 min-width: 150px;
