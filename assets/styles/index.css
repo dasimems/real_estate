@@ -6,6 +6,8 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  opacity: 0;
+  transition: 2s ease all;
 }
 .banner .banner-content {
   width: 100%;
@@ -27,15 +29,22 @@
 }
 .banner .banner-content .banner-subtitle {
   color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: 2s ease all;
 }
 .banner .banner-content .banner-header {
   font-weight: bold;
   font-size: 3rem;
+  height: 0px;
+  overflow: hidden;
+  transition: 2s ease all;
   color: white;
 }
 .banner .banner-content .property-search-form {
-  width: 100%;
+  width: 40px;
   height: 40px;
+  max-width: 500px;
+  transition: 3s ease all;
 }
 .banner .banner-content .property-search-form input {
   width: calc(100% - 40px);
@@ -62,6 +71,7 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   width: 40px;
+  min-width: 40px;
   height: 100%;
   border: none;
   outline: none;
@@ -70,6 +80,10 @@
 .banner .banner-content .banner-stats .stats {
   margin-right: 30px;
   align-items: center;
+  opacity: 1;
+  height: 0px;
+  overflow: hidden;
+  transition: 1s ease all;
 }
 .banner .banner-content .banner-stats .stats h3 {
   font-size: 1.5rem;

@@ -2,10 +2,13 @@
 
 window.addEventListener("load", ()=>{
     var openMobileBtn = Ele("header .mobile-btn button"),
-        closeMobileBtn = Ele(".mobile-link-container .close-mobile-link");
+        closeMobileBtn = Ele(".mobile-link-container .close-mobile-link"),
+        mainBodyContainer = Ele("main .body-contents");
 
     openMobileBtn.addEventListener("click", openMobileMenu);
     closeMobileBtn.addEventListener("click", closeMobileMenu);
+
+    // mainBodyContainer.focus();
 
     window.addEventListener("resize", ()=>{
         closeMobileMenu();
