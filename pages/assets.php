@@ -41,20 +41,22 @@
 
                         <div class="image-slide flex-content">
 
-                            <div class="banner-image">
-    
-                                <img src="../assets/images/bedroom.jpg" alt="Front house">
-    
-                                <div class="banner-tag">Bedroom</div>
-    
-                            </div>
-    
+
     
                             <div class="banner-image active">
     
                                 <img src="../assets/images/front_house.jpg" alt="Front house">
     
                                 <div class="banner-tag">Front side</div>
+    
+                            </div>
+    
+
+                            <div class="banner-image">
+    
+                                <img src="../assets/images/bedroom.jpg" alt="Front house">
+    
+                                <div class="banner-tag">Bedroom</div>
     
                             </div>
     

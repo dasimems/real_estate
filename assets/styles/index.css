@@ -5,6 +5,7 @@
   background: url("../images/landing_page_banner_image.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 .banner .banner-content {
   width: 100%;

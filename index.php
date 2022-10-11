@@ -451,5 +451,6 @@
         
         <script src="./assets/scripts/functions.js" async></script>
         <script src="./assets/scripts/general.js" defer></script>
+        <script src="./assets/scripts/index.js" defer></script>
     </body>
 </html>
