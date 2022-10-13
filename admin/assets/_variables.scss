@@ -2,13 +2,16 @@ $color: (
     "default": black,
     "text": white,
     "headerbackground": rgba(255, 255, 255, .8),
-    "background": rgba(234, 232, 253, .35)
+    "background": rgba(234, 232, 253, .35),
+    "primary": #5138ed,
+    "primarylight": rgba(81, 56, 237, .1),
+    "navLinkColor": rgba(255, 255, 255, .8)
 );
 
 $measurements : (
-    "maxvw": 1500px,
+    "maxvw": 1360px,
     "maxvh": 675px,
-    "headerheight": 80px
+    "headerheight": 70px
     
 );
 
@@ -16,5 +19,6 @@ $measurements : (
 $padding: (
     "one": 10px,
     "two": 20px,
-    "three": 30px
+    "three": 30px,
+    "four": 30px
 )

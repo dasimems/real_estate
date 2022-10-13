@@ -4,6 +4,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    font-family: poppins;
     // border: 1px solid red;
     
     .main-body{
@@ -24,6 +25,131 @@ body{
                 width: 100%;
                 height: 100%;
                 border-radius: 10px;
+                color: map-get($color, text );
+                padding: map-get($padding, two );
+
+                .nav-header{
+                    padding: map-get($padding, one ) 0px;
+                    padding-bottom: map-get($padding, three );
+                    border-bottom: 1px solid rgba(255, 255, 255, .2);
+                    position: relative;
+
+                    .nav-logo{
+                        font-size: 1.1rem;
+                        a{
+                            font-weight: bold;
+                            color: map-get($color, text );
+
+                        }
+                    }
+
+                    .nav-btn{
+                        position: absolute;
+                        right: calc(-1 * map-get($padding, two ));
+                        width: 15px;
+                        height: 30px;
+                        background: rgba(255, 255, 255, .9);
+                        border: none;
+                        border-top-left-radius: 3px;
+                        border-bottom-left-radius: 3px;
+                        color: map-get($color, primary );
+
+                        .open-icon{
+                            display: none;
+                        }
+                    }
+
+
+                }
+
+                .nav-links{
+                    padding: map-get($padding, three) 0px;
+
+                    ul{
+                        list-style: none;
+
+                        a{
+                            color: map-get($color, navLinkColor);
+                            padding: 16px  map-get($padding, one);
+                            border-radius: 10px;
+                            font-weight: bold;
+
+                            .link-text{
+
+                                .icon{
+                                    margin-right: 10px;
+                                }
+                            }
+
+                        }
+
+                        li{
+
+                            .background-link{
+                                background: map-get($color, primary );
+                                color:  map-get($color, text );
+                            }
+
+                            .dropdown-button{
+                                background: black;
+                                z-index: 99;
+                                position: relative;
+                            }
+
+                            .bordered-link{
+                                border: 1px solid rgba(255, 255, 255, .2);
+                            }
+
+                            &:not(:first-child){
+                                margin-top: 30px;
+                            }
+
+                            .dropdown-content{
+                                height: 0px;
+                                overflow: hidden;
+                                // border: 1px solid red;
+                                // padding-top: 10px;
+
+                                li{
+                                    padding-left: 10px;
+                                    margin: 0px;
+                                    position: relative;
+
+
+                                    a{
+                                        display: flex;
+                                        padding: 15px 0px;
+                                        color: rgba(255, 255, 255, .6);
+                                        font-weight: normal;
+                                        background: black;
+                                        z-index: 9;
+                                        width: 100%;
+                                        margin-left: 20px;
+                                        padding-left: 7px;
+                                        position: relative;
+                                    }
+                                }
+
+
+                                li::after{
+                                    width: 100%;
+                                    position: absolute;
+                                    content: "";
+                                    top: -50%;
+                                    border-left: 1px solid rgba(255, 255, 255, .2);
+                                    border-bottom: 1px solid rgba(255, 255, 255, .2);
+                                    height: 100%;
+                                }
+                                
+                                
+                                li:last-child::after{
+                                    border-bottom-left-radius: 5px;
+                                    // height: ;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -44,6 +170,73 @@ body{
                     background: map-get($color, headerbackground);
                     border-radius: 50px;
                     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                    padding: 0px map-get($padding, two );
+
+                    .header-profile{
+                        width: auto;
+
+                        .header-image{
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50%;
+                            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                            background: map-get($color, "background");
+                            margin-right: map-get($padding, one );
+                        }
+
+                        .header-text{
+
+                            h3{
+                                font-size: 0.9rem;
+
+                            }
+
+                            p{
+                                color: rgba(0, 0, 0, .7);
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+
+                    .header-links{
+                        width: auto;
+
+                        ul{
+                            list-style: none;
+
+                            li{
+                                
+                                a{
+                                    width: 30px;
+                                    height: 30px;
+                                    background: map-get($color, "primarylight" );
+                                    border-radius: 50%;
+                                    color: map-get($color, primary );
+                                    position: relative;
+                                    
+                                    .link-content{
+                                        width: auto;
+                                        height: auto;
+                                        display: inline-flex;
+                                        // border: 1px solid red;
+                                        position: relative;
+                                    }
+
+                                    .dot{
+                                        right: 0px;
+                                        top: -2px;
+                                    }
+                                }
+                                
+                                &:not(:first-child){
+                                    // border: 1px solid red;
+                                    margin-left: 15px;
+                                }
+                            }
+
+                            
+                        }
+                    }
                 }
 
             }

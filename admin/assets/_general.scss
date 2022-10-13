@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 13px;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+
+.dot{
+    width: 5px;
+    height: 5px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
 .flex-content{
     display: flex;
 }
