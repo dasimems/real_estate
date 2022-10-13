@@ -20,6 +20,14 @@
 
         <div class="body-content">
 
+            <div class="login-container error-container">
+
+                <p class="message">
+                    This is an error message
+                </p>
+
+            </div>
+
             <div class="login-container">
 
                 <h1 class="login-header">Admin Login</h1>

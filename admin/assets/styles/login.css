@@ -17,15 +17,18 @@ body {
   height: 100vh;
   background: url("../../../assets/images/login_banner.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   font-family: poppins;
 }
 body .body-content {
   width: 100%;
   background: rgba(255, 255, 255, 0.2);
   height: 100%;
+  padding: 20px;
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -36,9 +39,9 @@ body .body-content .login-container {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.6);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
 }
 body .body-content .login-container .login-header {
   text-align: center;
@@ -97,4 +100,10 @@ body .body-content .login-container .form-container .form-content button:hover {
   color: white;
   transition: 0.5s ease all;
   cursor: pointer;
+}
+body .body-content .error-container {
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+  background: rgba(255, 102, 102, 0.7);
 }/*# sourceMappingURL=login.css.map */

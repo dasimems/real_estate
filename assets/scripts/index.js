@@ -11,7 +11,8 @@ function bannerAnimation(){
         bannerHeaders = All(".banner .banner-content .banner-header"),
         bannerSubtitle = Ele(".banner .banner-content .banner-subtitle"),
         bannerForm = Ele(".banner .banner-content .property-search-form"),
-        bannerStats = All(".banner .banner-content .banner-stats .stats");
+        bannerStats = All(".banner .banner-content .banner-stats .stats"),
+        bannerStatsCount = All(".banner .banner-stats .stats-count");
 
     
 
@@ -37,6 +38,14 @@ function bannerAnimation(){
                     // element.style.marginTop = "0px";
                     // element.style.opacity = "1";
                     element.style.height = (element.scrollHeight + 5) + "px";
+
+                    bannerStatsCount.forEach(element =>{
+                        counter({
+                            element: element,
+                            number: element.innerText,
+                            addNumber: 24
+                        })
+                    })
                 })
 
             }, 500)

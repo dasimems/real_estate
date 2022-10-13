@@ -42,3 +42,63 @@ function closeMobileMenu(){
     }, 500)
 
 }
+
+function counter(details){
+    var num = 0,
+    startNum = 0,
+    countNum = 10,
+    duration = 20;
+
+    if(details && typeof(details) === "object"){
+
+        if(details.addNumber){
+            countNum = details.addNumber;
+        }
+
+        if(details.duration){
+            duration = details.duration;
+        }
+
+        if(details.element && details.number){
+            
+            num = details.number
+            ;
+
+            addNum()
+
+            var startCount = setInterval(()=>{
+                addNum();
+            }, duration)
+
+            function addNum(){
+
+                details.element.innerText = startNum;
+
+                if(startNum >= num){
+
+
+                    clearInterval(startCount)
+                }
+
+                // console.log(startNum);
+
+                if((startNum + countNum) > num){
+                    
+                    startNum = num;
+
+                }else{
+
+                    startNum = startNum + countNum;
+                }
+
+            }
+
+        }
+    }
+}
+
+// counter({
+//     element: this,
+//     number: 1500,
+//     addNumber: 24
+// })

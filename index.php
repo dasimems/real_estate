@@ -52,12 +52,12 @@
                             <div class="banner-stats flex-content wrap">
 
                                 <div class="stats flex-content">
-                                    <h3>1500+</h3>
+                                    <h3><span class="stats-count">1500</span>+</h3>
                                     <p>Properties sold</p>
                                 </div>
 
                                 <div class="stats flex-content">
-                                    <h3>1000+</h3>
+                                    <h3><span class="stats-count">1000</span>+</h3>
                                     <p>Happy Customers</p>
                                 </div>
 
