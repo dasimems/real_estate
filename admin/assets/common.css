@@ -77,6 +77,9 @@ body {
   height: 100vh;
   font-family: poppins;
 }
+body .content-header {
+  font-size: 1.1rem;
+}
 body .main-body {
   background: rgba(234, 232, 253, 0.35);
   width: 100vw;
@@ -287,7 +290,7 @@ body .main-body .main-content .header-content header .header-links ul li:not(:fi
 body .main-body .main-content .main-body-content {
   width: 100%;
   height: calc(100% - 70px);
-  padding: 10px 20px;
+  padding: 10px 35px;
   overflow-y: scroll;
   scrollbar-color: rgba(0, 0, 0, 0.5);
   scrollbar-width: thin;
@@ -364,6 +367,12 @@ body .main-body .main-content .notification-container .notification-content .not
 }
 body .main-body .main-content .notification-container .notification-content .notification-messages .message .message-text .time {
   font-style: italic;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages .unread {
+  font-weight: bold;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages .unread .message-text {
+  color: black;
 }
 body .main-body .main-content .notification-container .notification-content .notification-messages::-webkit-scrollbar {
   width: 2px;

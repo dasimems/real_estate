@@ -4,7 +4,7 @@
 
 
         <div class="nav-logo">
-            <a href="../index.php">Brand Name</a>
+            <a href="/index.php">Brand Name</a>
         </div>
 
         <button class="nav-btn hide-nav-btn">
@@ -52,11 +52,11 @@
 
                 <ul class="dropdown-content" data-id="1">
 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Properties</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Others</a></li>
+                    <li><a href="/admin/pages/pages.php?page=home">Home</a></li>
+                    <li><a href="/admin/pages/pages.php?page=about">About</a></li>
+                    <li><a href="/admin/pages/pages.php?page=properties">Properties</a></li>
+                    <li><a href="/admin/pages/pages.php?page=contacts">Contact</a></li>
+                    <li><a href="/admin/pages/pages.php?page=others">General</a></li>
 
                 </ul>
 

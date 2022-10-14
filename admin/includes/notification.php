@@ -14,7 +14,7 @@
 
     <div class="notification-messages">
 
-        <a href="#" class="message flex-content align-center">
+        <a href="#" class="message unread flex-content align-center">
 
             <div class="message-image"></div>
 
