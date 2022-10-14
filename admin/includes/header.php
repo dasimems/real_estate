@@ -38,6 +38,15 @@
             
             
             </a></li>
+
+            <li><a class="flex-content align-center justify-center" href="#">
+
+                <span class="link-content">
+                    <i class="fa-solid fa-cog"></i>
+                </span>
+            
+            
+            </a></li>
         </ul>
 
     </div>

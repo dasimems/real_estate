@@ -12,6 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../assets/plugins/fontawesome/css/all.css">
         <link rel="stylesheet" href="./assets/common.css">
+        <script src="../assets/plugins/lottie_player/lottie-player.js"></script>
     </head>
     <body class="flex-content align-center justify-center">
         <!--[if lt IE 7]>
@@ -34,9 +35,23 @@
 
                 </div>
 
+                <div class="main-body-content">
+
+                this is just testing
+
+                </div>
+
+                <div class="notification-container">
+
+                    <?php require_once("./includes/notification.php") ?>
+
+                </div>
+
             </div>
+
         </div>
         
-        <script src="" async defer></script>
+        <script src="../assets/scripts/functions.js" async></script>
+        <script src="./assets/scripts/general.js" defer></script>
     </body>
 </html>

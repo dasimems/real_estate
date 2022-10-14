@@ -95,7 +95,7 @@
                 <ul class="dropdown-content" data-id="2">
 
                     <li><a href="#">Buy</a></li>
-                    <li><a href="#">Sell</a></li>]
+                    <li><a href="#">Sell</a></li>
 
                 </ul>
 

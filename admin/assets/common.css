@@ -83,11 +83,14 @@ body .main-body {
   height: 100vh;
   max-width: 1360px;
   max-height: 675px;
+  position: relative;
+  overflow: hidden;
 }
 body .main-body .nav-content {
   width: 320px;
   min-width: 300px;
   height: 100%;
+  position: relative;
   padding: 10px;
 }
 body .main-body .nav-content nav {
@@ -96,13 +99,16 @@ body .main-body .nav-content nav {
   height: 100%;
   border-radius: 10px;
   color: white;
-  padding: 20px;
+  position: relative;
+  overflow: hidden;
 }
 body .main-body .nav-content nav .nav-header {
-  padding: 10px 0px;
+  padding: 30px 0px;
   padding-bottom: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
+  width: 90%;
+  margin-inline: auto;
 }
 body .main-body .nav-content nav .nav-header .nav-logo {
   font-size: 1.1rem;
@@ -127,9 +133,19 @@ body .main-body .nav-content nav .nav-header .nav-btn .open-icon {
 }
 body .main-body .nav-content nav .nav-links {
   padding: 30px 0px;
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 30px 5%;
+  overflow-y: scroll;
+  position: relative;
+  scrollbar-color: rgba(255, 255, 255, 0.5);
+  scrollbar-width: thin;
+  scrollbar-track-color: rgba(255, 255, 255, 0.1);
 }
 body .main-body .nav-content nav .nav-links ul {
   list-style: none;
+  position: relative;
+  overflow: hidden;
 }
 body .main-body .nav-content nav .nav-links ul a {
   color: rgba(255, 255, 255, 0.8);
@@ -140,13 +156,15 @@ body .main-body .nav-content nav .nav-links ul a {
 body .main-body .nav-content nav .nav-links ul a .link-text .icon {
   margin-right: 10px;
 }
+body .main-body .nav-content nav .nav-links ul li {
+  position: relative;
+}
 body .main-body .nav-content nav .nav-links ul li .background-link {
   background: #5138ed;
   color: white;
 }
 body .main-body .nav-content nav .nav-links ul li .dropdown-button {
   background: black;
-  z-index: 99;
   position: relative;
 }
 body .main-body .nav-content nav .nav-links ul li .bordered-link {
@@ -158,6 +176,7 @@ body .main-body .nav-content nav .nav-links ul li:not(:first-child) {
 body .main-body .nav-content nav .nav-links ul li .dropdown-content {
   height: 0px;
   overflow: hidden;
+  transition: 0.5s ease all;
 }
 body .main-body .nav-content nav .nav-links ul li .dropdown-content li {
   padding-left: 10px;
@@ -188,9 +207,23 @@ body .main-body .nav-content nav .nav-links ul li .dropdown-content li::after {
 body .main-body .nav-content nav .nav-links ul li .dropdown-content li:last-child::after {
   border-bottom-left-radius: 5px;
 }
+body .main-body .nav-content nav .nav-links::-webkit-scrollbar {
+  width: 2px;
+}
+body .main-body .nav-content nav .nav-links:hover::-webkit-scrollbar {
+  width: 4px;
+}
+body .main-body .nav-content nav .notifav-linksges::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+body .main-body .nav-content nav .nav-links::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+}
 body .main-body .main-content {
   width: calc(100% - 320px);
   height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 body .main-body .main-content .header-content {
   width: 100%;
@@ -250,4 +283,111 @@ body .main-body .main-content .header-content header .header-links ul li a .dot 
 }
 body .main-body .main-content .header-content header .header-links ul li:not(:first-child) {
   margin-left: 15px;
+}
+body .main-body .main-content .main-body-content {
+  width: 100%;
+  height: calc(100% - 70px);
+  padding: 10px 20px;
+  overflow-y: scroll;
+  scrollbar-color: rgba(0, 0, 0, 0.5);
+  scrollbar-width: thin;
+  scrollbar-track-color: rgba(0, 0, 0, 0.1);
+}
+body .main-body .main-content .main-body-content::-webkit-scrollbar {
+  width: 2px;
+}
+body .main-body .main-content .main-body-content:hover::-webkit-scrollbar {
+  width: 4px;
+}
+body .main-body .main-content .main-body-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+body .main-body .main-content .main-body-content::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+}
+body .main-body .main-content .notification-container {
+  width: 100%;
+  height: calc(100% - 70px - 10px);
+  max-width: 300px;
+  background: white;
+  position: absolute;
+  right: -310px;
+  transition: 0.5s ease all;
+  bottom: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+body .main-body .main-content .notification-container .notification-content {
+  position: relative;
+  height: 100%;
+  padding: 20px 0px;
+}
+body .main-body .main-content .notification-container .notification-content .notification-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  width: 90%;
+  margin-inline: auto;
+}
+body .main-body .main-content .notification-container .notification-content .notification-header h3 {
+  font-size: 0.9rem;
+}
+body .main-body .main-content .notification-container .notification-content .notification-header button {
+  font-size: 0.8rem;
+  color: #5138ed;
+  background: transparent;
+  border: none;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages {
+  height: calc(100% - 20px);
+  overflow-y: scroll;
+  scrollbar-color: rgba(0, 0, 0, 0.5);
+  scrollbar-width: thin;
+  scrollbar-track-color: rgba(0, 0, 0, 0.1);
+  padding: 0px 5%;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages .message {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages .message .message-image {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  background: rgba(81, 56, 237, 0.1);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages .message .message-text {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages .message .message-text .time {
+  font-style: italic;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages::-webkit-scrollbar {
+  width: 2px;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages:hover::-webkit-scrollbar {
+  width: 4px;
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+body .main-body .main-content .notification-container .notification-content .notification-messages::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+}
+body .main-body .main-content .notification-container .empty-notification {
+  width: 100%;
+  height: 100%;
+}
+body .main-body .main-content .notification-container .empty-notification .empty-notification-animation {
+  width: 60%;
+  height: auto;
+  display: inline;
+}
+body .main-body .main-content .notification-container .empty-notification p {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
 }/*# sourceMappingURL=common.css.map */

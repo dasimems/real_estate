@@ -13,11 +13,14 @@ body{
         height: 100vh;
         max-width: map-get($measurements, maxvw);
         max-height: map-get($measurements, maxvh);
+        position: relative;
+        overflow: hidden;
 
         .nav-content{
             width: 320px;
             min-width: 300px;
             height: 100%;
+            position: relative;
             padding: map-get($padding, one);
             
             nav{
@@ -26,13 +29,17 @@ body{
                 height: 100%;
                 border-radius: 10px;
                 color: map-get($color, text );
-                padding: map-get($padding, two );
+                position: relative;
+                overflow: hidden;
+                // padding: map-get($padding, two );
 
                 .nav-header{
-                    padding: map-get($padding, one ) 0px;
+                    padding: map-get($padding, four ) 0px;
                     padding-bottom: map-get($padding, three );
                     border-bottom: 1px solid rgba(255, 255, 255, .2);
                     position: relative;
+                    width: 90%;
+                    margin-inline: auto;
 
                     .nav-logo{
                         font-size: 1.1rem;
@@ -64,9 +71,21 @@ body{
 
                 .nav-links{
                     padding: map-get($padding, three) 0px;
+                    width: 100%;
+                    height: calc(100% - 50px);
+                    padding: 30px 5%;
+                    // border: 1px solid red;
+                    overflow-y: scroll;
+                    position: relative;
+                    scrollbar-color: rgba(255, 255, 255, .5);
+                    scrollbar-width: thin;
+                    scrollbar-track-color: rgba(255, 255, 255, .1);
+
 
                     ul{
                         list-style: none;
+                        position: relative;
+                        overflow: hidden;
 
                         a{
                             color: map-get($color, navLinkColor);
@@ -84,6 +103,7 @@ body{
                         }
 
                         li{
+                            position: relative;
 
                             .background-link{
                                 background: map-get($color, primary );
@@ -92,7 +112,7 @@ body{
 
                             .dropdown-button{
                                 background: black;
-                                z-index: 99;
+                                // z-index: 99;
                                 position: relative;
                             }
 
@@ -107,6 +127,7 @@ body{
                             .dropdown-content{
                                 height: 0px;
                                 overflow: hidden;
+                                transition: 0.5s ease all;
                                 // border: 1px solid red;
                                 // padding-top: 10px;
 
@@ -150,12 +171,30 @@ body{
                         }
                     }
                 }
+
+                .nav-links::-webkit-scrollbar{
+                    width: 2px;
+                }
+
+                .nav-links:hover::-webkit-scrollbar{
+                    width: 4px;
+                }
+
+                .notifav-linksges::-webkit-scrollbar-track{
+                    background: rgba(255, 255, 255, .1);
+                }
+
+                .nav-links::-webkit-scrollbar-thumb{
+                    background: rgba(255, 255, 255, .5);
+                }
             }
         }
 
         .main-content{
             width: calc(100% - 320px);
             height: 100%;
+            position: relative;
+            overflow: hidden;
             
             .header-content{
                 // border: 1px solid red;
@@ -240,6 +279,149 @@ body{
                 }
 
             }
+
+            .main-body-content{
+                width: 100%;
+                height: calc(100% - map-get($measurements, headerheight));
+                // border: 1px solid red;
+                padding: map-get($padding, one) map-get($padding, two);
+                overflow-y: scroll;
+                scrollbar-color: rgba(0, 0, 0, .5);
+                scrollbar-width: thin;
+                scrollbar-track-color: rgba(0, 0, 0, .1);
+            }
+
+            .main-body-content::-webkit-scrollbar{
+                width: 2px;
+            }
+
+            .main-body-content:hover::-webkit-scrollbar{
+                width: 4px;
+            }
+
+            .main-body-content::-webkit-scrollbar-track{
+                background: rgba(0, 0, 0, .1);
+            }
+
+            .main-body-content::-webkit-scrollbar-thumb{
+                background: rgba(0, 0, 0, .5);
+            }
+
+            .notification-container{
+                width: 100%;
+                height: calc(100% - map-get($measurements, headerheight) - 10px);
+                max-width: 300px;
+                background: map-get($color, text);
+                position: absolute;
+                right: -310px;
+                transition: 0.5s ease all;
+                bottom: 0px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                z-index: 999;
+
+                .notification-content{
+                    position: relative;
+                    height: 100%;
+                    padding: 20px 0px;
+
+                    .notification-header{
+                        border-bottom: 1px solid rgba(0, 0, 0, .1);
+                        padding-bottom: 10px;
+                        width: 90%;
+                        margin-inline: auto;
+
+                        h3{
+                            font-size: 0.9rem;
+                        }
+
+                        button{
+                            font-size: 0.8rem;
+                            color: map-get($color, primary);
+                            background: transparent;
+                            border: none;
+                        }
+                    }
+
+                    .notification-messages{
+                        // padding-top: 10px;
+                        height: calc(100% - 20px);
+                        // border: 1px solid red;
+                        overflow-y: scroll;
+                        scrollbar-color: rgba(0, 0, 0, .5);
+                        scrollbar-width: thin;
+                        scrollbar-track-color: rgba(0, 0, 0, .1);
+                        padding: 0px 5%;
+
+                        .message{
+                            // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                            // border-radius: 8px;
+                            padding: 10px 0px;
+                            border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+                            .message-image{
+                                width: 40px;
+                                min-width: 40px;
+                                height: 40px;
+                                background: map-get($color, primarylight );
+                                margin-right: 10px;
+                                border-radius: 4px;
+
+                            }
+
+                            .message-text{
+                                font-size: 0.7rem;
+                                color: rgba(0, 0, 0, .7);
+
+
+                                .time{
+                                    font-style: italic;
+                                }
+                            }
+                        }
+                    }
+
+                    .notification-messages::-webkit-scrollbar{
+                        width: 2px;
+                    }
+
+                    .notification-messages:hover::-webkit-scrollbar{
+                        width: 4px;
+                    }
+
+                    .notification-messages::-webkit-scrollbar-track{
+                        background: rgba(0, 0, 0, .1);
+                    }
+
+                    .notification-messages::-webkit-scrollbar-thumb{
+                        background: rgba(0, 0, 0, .5);
+                    }
+                }
+
+                .empty-notification{
+                    width: 100%;
+                    height: 100%;
+
+                    .empty-notification-animation{
+                        width: 60%;
+                        // border: 1px solid red;
+                        height: auto;
+                        display: inline;
+
+                    }
+
+                    p{
+                        font-size: 0.9rem;
+                        color: rgba(0, 0, 0, .8);
+                        text-align: center;
+                    }
+
+                    
+
+                }
+            }
         }
+
+        
     }
 }
