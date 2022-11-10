@@ -54,18 +54,21 @@ use mysqli;
      {
 
    try {
-     $this->connection = connection::get_instance('localhost' , 'root' , '' , 'shopflix_database')->get_connection();
+     $this->connection = connection::get_instance('localhost' , 'root' , '' , 'real_estate')->get_connection();
 
    } catch(Exception $e){
         echo $e->getMessage();
-      }
-       $this->prepare("select * from product_variant where ?")->bind([true]);
-     
+      } 
       }
 
+      /**
+       * return the database last error
+       * 
+       */
    private function get_db_last_error()
    {
-       return $this->connection->error;
+      return $this->connection->error;
+      
    }
    
    /**
@@ -175,7 +178,7 @@ use mysqli;
        * 
        */
 
-       private function fecth_one()
+       private function fetch_one()
        {
         return $this->result->fetch_assoc();
        }
@@ -193,9 +196,11 @@ use mysqli;
          * close both the prepared statement and
          * database connection
          */
-        private function close()
+        public function close()
         {
+          if(!is_null($this->stmt)){
           $this->stmt->close();
+          }
           $this->connection->close();
         }
         /**
@@ -238,7 +243,6 @@ use mysqli;
              } else {
               $result = $this->fetch_all_as_num_array();
              }
-             $this->close();
              return $result;
           }
         
@@ -253,10 +257,9 @@ use mysqli;
 
           public function scalar(string $sql , $params = null)
           {
-             $this->execute_query($sql , $params);
-               $result = $this->fecth_one(); 
-             $this->close();
-             return $result;
+               $this->execute_query($sql , $params);
+               $result = $this->fetch_one(); 
+                return $result;
           }
 
           /**
@@ -269,7 +272,7 @@ use mysqli;
           public function update(string $sql , $params = null)
           {
              $this->execute_query($sql , $params);
-             $this->close();
+             
           }
           /**
           * execute a delete statement against the database
@@ -281,9 +284,46 @@ use mysqli;
           public function delete(string $sql , $params = null)
           {
              $this->execute_query($sql , $params);
-             $this->close();
+            
           }
 
+          /**
+           * get the last error
+           * 
+           */
+
+           public function get_last_error()
+           {
+             return $this->get_db_last_error();
+           }
+
+            /**
+             * 
+             * generates a unique id for the specified table
+             * @param string $table_name   the name of the table 
+             * you want to generate an id for
+             */
+   public function generate_unique_id($table_name){
+    try {
+            if(!empty($table_name)){
+    $id =  str_shuffle(123456789123456);
+    $final_id = substr($id, 0, strlen($id));
+    while($this->check_id($id,$table_name) > 0){
+          $final_id = substr($id, 0, strlen($id));
+    }
+          return $final_id;
+         } 
+        } catch(Exception $e){
+                throw New Exception($e->getMessage());
+        }
+      }
+      private function check_id($id,$table_name){
+        try {
+       return $this->scalar("select count(id) as result from $table_name where id = ? " , $id)["result"];
+        } catch(Exception $e){
+                throw New Exception($e->getMessage());
+        }
+  }
 
  }
    
