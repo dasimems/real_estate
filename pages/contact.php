@@ -1,3 +1,4 @@
+ <?php  require_once "../functions/customer/contact.php" ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -81,7 +82,7 @@
 
                             <div class="contact-form">
 
-                                <form action="" method="post">
+                                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
 
                                     <div class="form-content flex-content column">
 
@@ -92,7 +93,7 @@
                                             <input type="text" name="name" id="name" placeholder="Your full name">
 
                                         </div>
-
+                                        <?php echo $nameErr?>
 
                                     </div>
 
@@ -102,9 +103,10 @@
     
                                         <div class="form-box">
 
-                                            <input type="email" name="email" id="email" placeholder="Your email address">
+                                            <input type="email" name="email" class="error" id="email" placeholder="Your email address">
 
                                         </div>
+                                        <?php echo $emailErr; ?>
 
 
                                     </div>
@@ -114,13 +116,13 @@
                                         <label for="message">Message</label>
 
                                         <textarea name="message" id="message" placeholder="Message here..."></textarea>
-
+                                        <?php echo $msgErr; ?>
 
                                     </div>
 
                                     <div class="form-content flex-content column">
 
-                                        <button type="submit">Submit</button>
+                                        <button type="submit" name="submit">Submit</button>
 
                                     </div>
 
