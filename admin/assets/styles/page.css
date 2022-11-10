@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.empty-page {
+  width: 100%;
+  height: 100%;
+}
+.empty-page .empty-animation {
+  max-width: 300px;
+}
+
+html {
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../../../assets/fonts/Poppins-Regular.ttf");
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.flex-content {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.page-contents .content {
+  width: 100%;
+  margin-top: 20px;
+}
+.page-contents .content .content-header {
+  color: rgba(0, 0, 0, 0.8);
+}
+.page-contents .content .banner-image {
+  margin-top: 15px;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+.page-contents .content .banner-image .button {
+  position: absolute;
+  right: 18px;
+  background: #5138ed;
+  color: white;
+  border: 2px solid #5138ed;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 5px 7px;
+  font-size: 1.1rem;
+}
+.page-contents .content .banner-image .edit-image-btn {
+  top: 20px;
+}
+.page-contents .content .banner-image .zoom-image-btn {
+  bottom: 20px;
+  background: transparent;
+  border-width: 5px;
+  border-style: dashed;
+  color: #5138ed;
+  font-weight: bold;
+}/*# sourceMappingURL=page.css.map */
